@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    min-height: 100vh;
+  }
+
+  .components {
+    grid-template-columns: 1fr 1fr;
+  }
+}
